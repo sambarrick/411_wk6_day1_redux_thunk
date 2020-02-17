@@ -19,7 +19,7 @@ const makes = (state = [], action) => {
     switch(action.type) {
         case 'FETCH_MAKES':
             return action.value
-        case 'DELETE_MAKE':
+        case 'DELETE_MAKE': //ask Wes!!! Why did delete remove the car but not REMOVE?
                 const makes = [...state]
                 makes.splice(action.value, 1)
             return makes
