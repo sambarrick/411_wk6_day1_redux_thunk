@@ -29,7 +29,6 @@ console.log(props.makes)
                             <TableCell>
                             <DeleteIcon onClick={() => props.deleteMake(index)}
                             className="icon text-red" />
-                            
                         </TableCell>
                 </TableRow>
         ))}
